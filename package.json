@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./build -p 8089",
+    "start": "http-server ./build",
     "dev": "webpack-dev-server --config webpack.config.development.js",
     "prebuild": "rimraf build",
     "build": "cross-env NODE_ENV=production webpack -p --config webpack.config.production.js",
