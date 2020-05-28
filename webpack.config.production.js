@@ -20,7 +20,7 @@ module.exports = {
     // Webpack 4 assumes your output path will be './dist' so you 
     // can just leave this
     // entry out.
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     publicPath: '/'
   },
   // Change to production source maps
